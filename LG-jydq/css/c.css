@@ -440,7 +440,155 @@
 		line-height: 24px;
 		padding-bottom: 5px;
 	}
+	/*公共头*/
+	  .row.for-desktop {
+		display: none;
+	}
+	  .for-mobile .nav-wrap {
+		position: relative;
+		width: 100%;
+		height: 47px;
+	}
+	  .for-mobile .logo {
+		width: 140px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	  .for-mobile .logo a {
+		padding: 11px 20px;
+		display: inline-block;
+	}
+	  .for-mobile .logo a img {
+		width: auto;
+		height: 22px;
+	}
+	  .for-mobile .menu {
+		position: static;
+		padding: 0;
+		margin-top: -46px;
+		float: left;
+	}
+	  .for-mobile .menu > a {
+		display: block;
+		width: 58px;
+		height: 47px;
+	}
+	  .for-mobile .menu .open{
+		background: url(../images/gnb-close.svg) no-repeat 50% 50%;
+		background-size: 16px 16px;
+	}
+	  .for-mobile .menu > a .line.line1 {
+		width: 16px;
+		top: 16px;
+	}
+	  .for-mobile .menu > a .line {
+		display: block;
+		height: 2px;
+		background: #333;
+		position: absolute;
+		left: 20px;
+	}
+	  .for-mobile .menu > a .line.line2 {
+		width: 14px;
+		top: 23px;
+	}
+	  .for-mobile .menu > a .line.line3 {
+		width: 18px;
+		top: 30px;
+	}
 	
+	  .for-mobile .right {
+		position: static;
+		margin-top: -35px;
+		float: right;
+		padding: 0 20px 0 0;
+	}
+	  .for-mobile .right .icons .search > a {
+		background: url(../images/search-nero.svg) no-repeat 50% 50%;
+		background-size: 20px 20px;
+	}
+	  .for-mobile .right .icons > div > a {
+		width: 28px;
+		height: 28px;
+		display: inline-block;
+	}
+	/*底部*/
+	.footer{
+		background: #333;
+	}
+	.footer-pc{
+		display: none;
+	}
+	.footer-sj .footer-component {
+		max-width: 1284px;
+		margin: 0 auto;
+		padding: 22px 24px;
+	}
+	.footer-sj .links-bottom {
+		line-height: 58px;
+		background: #fff;
+	}
+	.footer-sj .bottom-links {
+		position: relative;
+		min-height: 58px;
+	}
+	.footer-sj .bottom-links ul li {
+		position: relative;
+		float: left;
+		margin-right: 24px;
+		line-height: 18px;
+	}
+	.footer-sj .bottom-links ul li a{
+		color: #fff;
+	}
+	.footer-sj.footer-component .copyright {
+		margin-top: 10px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.footer-sj .copyright .description a{
+		display: block;
+		text-decoration: underline;
+		margin-top: 5px;
+		margin-right: 0 !important;
+		line-height: 20px;
+		color: #b2b2b2;
+	}
+	.footer-sj .links-wrap {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.footer-sj .links-wrap a.cn_link1 {
+		padding: 0;
+		background: 0 0;
+		width: auto;
+		height: auto;
+		margin-right: 5px;
+	}
+	.footer-sj .links-wrap a.cn_link2 {
+		padding-left: 83px;
+		background: url(../images/icon-cn01.png) 32px center no-repeat;
+	}
+	.footer-sj .links-wrap a.link-text {
+		padding-left: 83px;
+		background: url(../images/icon-jungdo.jpg) 22px center no-repeat;
+	}
+	.footer-sj .links-wrap a {
+		position: relative;
+		line-height: 19px;
+		text-transform: none;
+		color: #333;
+		display: inline-block;
+		width: 100%;
+		vertical-align: middle;
+		border-top: 1px solid #e4e4e4;
+		font-style: normal;
+		font-weight: 400;
+		word-break: normal;
+		height: 58px;
+		padding: 18px 24px 0 80px;
+	}
 	
 }
 
@@ -743,7 +891,258 @@
 		margin-top: 19px;
 		text-align: center;
 	}
-	
+	/*公共头*/
+	.for-mobile{
+		display: none;
+	}
+	header.navigation {
+		position: relative;
+		width: 100%;
+		z-index: 10000;
+	}
+	  .row.for-desktop {
+		display: block;
+	}
+	  .row {
+		border-bottom: 1px solid #e4e4e4;
+		background: #fff;
+	}
+	  .for-desktop .size {
+		max-width: 1600px;
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+	}
+	  .for-desktop .logo {
+		width: 158px;
+		height: 93px;
+		float: left;
+	}
+	  .for-desktop .logo a {
+		display: block;
+		padding: 0 30px;
+	}
+	  .for-desktop .logo a img {
+		height: 93px;
+	}
+	 .b2c .for-desktop .links {
+		width: calc(100% - 188px);
+	}
+	  .for-desktop .links {
+		float: left;
+	}
+	  .for-desktop .navi-top {
+		width: 100%;
+		height: 42px;
+		border-bottom: 1px solid #eee;
+	}
+	  .for-desktop .left-top {
+		height: 100%;
+		font-size: 14px;
+		line-height: 24px;
+		font-style: normal;
+		font-weight: 700;
+		overflow: hidden;
+		float: left;
+	}
+	  .for-desktop .left-top a {
+		display: block;
+		width: auto;
+		height: 100%;
+		padding: 12px 10px 0;
+		color: #333;
+		text-transform: uppercase;
+		overflow: hidden;
+		float: left;
+		margin-right: 10px;
+	}
+	  .for-desktop .left-top a img {
+		width: auto;
+		height: 9px;
+		margin: 0 0 2px 0;
+	}
+	  .for-desktop .right-top {
+		height: 100%;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 600;
+		float: right;
+	}
+	  .for-desktop .right-top a {
+		display: block;
+		width: auto;
+		height: 100%;
+		padding: 12px 10px 0;
+		color: #000;
+		overflow: hidden;
+	}
+	  .for-desktop .navi-btm {
+		width: 100%;
+		height: 51px;
+	}
+	  .for-desktop .left-btm {
+		height: 100%;
+		float: left;
+	}
+	  .for-desktop .left-btm ul.depth1{
+		display: table-cell;
+		table-layout: fixed;
+		width: auto;
+		height: 100%;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 16px;
+		margin: 0;
+	}
+	.for-desktop  ul.depth1 > li, .for-desktop  ul.depth2 > li {
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+	}
+	  .for-desktop  ul.depth1 > li.depth1-holder ul.depth2 > li {
+		padding-right: 20px;
+	}
+	  .for-desktop  ul.depth1 > li > a, .for-desktop ul.depth2 > li > a {
+		position: relative;
+		display: block;
+		width: auto;
+		height: 100%;
+		max-height: 51px;
+		margin: 0 9px;
+		color: #333;
+		overflow: hidden;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	  .for-desktop  ul.depth2 > li > a > span {
+		display: table-cell;
+		table-layout: fixed;
+		width: 100%;
+		height: 51px;
+		vertical-align: middle;
+		text-align: center;
+		padding: 0 0 2px 0;
+	}
+	  .for-desktop .right-btm {
+		position: relative;
+		padding: 14px 4px 0 0;
+		white-space: nowrap;
+		height: 51px;
+		float: right;
+		text-align: right;
+	}
+	  .for-desktop .right-btm .icons {
+		display: inline-block;
+		white-space: nowrap;
+		vertical-align: top;
+		height: 38px;
+		padding-right: 5px;
+	}
+	  .for-desktop .icons .login {
+		position: static;
+		padding-right: 7px;
+	}
+	  .for-desktop  .icons > div,.for-desktop  .icons > li {
+		display: inline-block;
+		vertical-align: top;
+	}
+	  .for-desktop  .icons .login > a {
+		background-image: url(../images/login-nero.svg);
+	}
+	  .for-desktop  .icons > div > a,.for-desktop .icons > li > a {
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		text-decoration: none;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: auto auto;
+		margin-left: 8px;
+	}
+	  .for-desktop .search a {
+		background-image: url(../images/search-nero.svg);
+	}
+	/*底部*/
+	.footer-sj{
+		display: none;
+	}
+	.footer{
+		background: #333;
+	}
+	.footer-component {
+		max-width: 1284px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.footer-component .bottom-links {
+		position: relative;
+		min-height: 58px;
+	}
+	.bottom-links .links-left {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.bottom-links .links-right {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.bottom-links .links-left ul li {
+		position: relative;
+		float: left;
+		margin-right: 30px;
+		height: 18px;
+		line-height: 18px;
+	}
+	.bottom-links .links-left ul li a{
+		color: #fff;
+	}
+	.copyright {
+		font-size: 14px;
+		line-height: 20px;
+		color: #b2b2b2;
+		font-style: normal;
+		font-weight: 400;
+	}
+	.copyright a.description {
+		display: block;
+		text-decoration: underline;
+		margin-top: 5px;
+		margin-right: 0 !important;
+		line-height: 20px;
+		color: #b2b2b2;
+	}
+	.bottom-links .links-right a.cn_link1 {
+		padding: 0;
+		background: 0 0;
+		width: auto;
+		height: auto;
+		margin-right: 5px;
+	}
+	.bottom-links .links-right a.cn_link2 {
+		width: 263px;
+		color: #fff;
+		padding-left: 49px;
+		background: #333 url(../images/icon-cn01.png) 0 0 no-repeat;
+	}
+	.bottom-links .links-right a {
+		font-size: 14px;
+		line-height: 19px;
+		color: #333;
+		font-style: normal;
+		font-weight: 400;
+		text-transform: none;
+		display: inline-block;
+		vertical-align: middle;
+		width: 240px;
+		height: 58px;
+		border-radius: 3px 3px;
+		padding: 9px 0 0 62px;
+		word-break: normal;
+		background: #fff url(../images/icon-jungdo.jpg) 0 0 no-repeat;
+	}
 	
 	
 	
@@ -751,3 +1150,260 @@
 	
 	
 }
+
+@media screen and (min-width:974px){
+	/*公共头*/
+	.for-mobile{
+		display: none;
+	}
+	header.navigation {
+		position: relative;
+		width: 100%;
+		z-index: 10000;
+	}
+	  .row.for-desktop {
+		display: block;
+	}
+	  .row {
+		border-bottom: 1px solid #e4e4e4;
+		background: #fff;
+	}
+	  .for-desktop .size {
+		max-width: 1600px;
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+	}
+	  .for-desktop .logo {
+		width: 158px;
+		height: 93px;
+		float: left;
+	}
+	  .for-desktop .logo a {
+		display: block;
+		padding: 0 30px;
+	}
+	  .for-desktop .logo a img {
+		height: 93px;
+	}
+	 .b2c .for-desktop .links {
+		width: calc(100% - 188px);
+	}
+	  .for-desktop .links {
+		float: left;
+	}
+	  .for-desktop .navi-top {
+		width: 100%;
+		height: 42px;
+		border-bottom: 1px solid #eee;
+	}
+	  .for-desktop .left-top {
+		height: 100%;
+		font-size: 14px;
+		line-height: 24px;
+		font-style: normal;
+		font-weight: 700;
+		overflow: hidden;
+		float: left;
+	}
+	  .for-desktop .left-top a {
+		display: block;
+		width: auto;
+		height: 100%;
+		padding: 12px 10px 0;
+		color: #333;
+		text-transform: uppercase;
+		overflow: hidden;
+		float: left;
+		margin-right: 10px;
+	}
+	  .for-desktop .left-top a img {
+		width: auto;
+		height: 9px;
+		margin: 0 0 2px 0;
+	}
+	  .for-desktop .right-top {
+		height: 100%;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 600;
+		float: right;
+	}
+	  .for-desktop .right-top a {
+		display: block;
+		width: auto;
+		height: 100%;
+		padding: 12px 10px 0;
+		color: #000;
+		overflow: hidden;
+	}
+	  .for-desktop .navi-btm {
+		width: 100%;
+		height: 51px;
+	}
+	  .for-desktop .left-btm {
+		height: 100%;
+		float: left;
+	}
+	  .for-desktop .left-btm ul.depth1{
+		display: table-cell;
+		table-layout: fixed;
+		width: auto;
+		height: 100%;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 16px;
+		margin: 0;
+	}
+	  .for-desktop  ul.depth1 > li, .for-desktop  ul.depth2 > li {
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+	}
+	  .for-desktop  ul.depth1 > li.depth1-holder ul.depth2 > li {
+		padding-right: 20px;
+	}
+	  .for-desktop  ul.depth1 > li > a, .for-desktop ul.depth2 > li > a {
+		position: relative;
+		display: block;
+		width: auto;
+		height: 100%;
+		max-height: 51px;
+		margin: 0 9px;
+		color: #333;
+		overflow: hidden;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	  .for-desktop  ul.depth2 > li > a > span {
+		display: table-cell;
+		table-layout: fixed;
+		width: 100%;
+		height: 51px;
+		vertical-align: middle;
+		text-align: center;
+		padding: 0 0 2px 0;
+	}
+	  .for-desktop .right-btm {
+		position: relative;
+		padding: 14px 4px 0 0;
+		white-space: nowrap;
+		height: 51px;
+		float: right;
+		text-align: right;
+	}
+	  .for-desktop .right-btm .icons {
+		display: inline-block;
+		white-space: nowrap;
+		vertical-align: top;
+		height: 38px;
+		padding-right: 5px;
+	}
+	  .for-desktop .icons .login {
+		position: static;
+		padding-right: 7px;
+	}
+	  .for-desktop  .icons > div,.for-desktop  .icons > li {
+		display: inline-block;
+		vertical-align: top;
+	}
+	  .for-desktop  .icons .login > a {
+		background-image: url(../images/login-nero.svg);
+	}
+	  .for-desktop  .icons > div > a,.for-desktop .icons > li > a {
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		text-decoration: none;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		background-size: auto auto;
+		margin-left: 8px;
+	}
+	  .for-desktop .search a {
+		background-image: url(../images/search-nero.svg);
+	}
+
+	/*底部*/
+	.footer-sj{
+		display: none;
+	}
+	.footer{
+		background: #333;
+	}
+	.footer-component {
+		max-width: 1284px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.footer-component .bottom-links {
+		position: relative;
+		min-height: 58px;
+	}
+	.bottom-links .links-left {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.bottom-links .links-right {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.bottom-links .links-left ul li {
+		position: relative;
+		float: left;
+		margin-right: 30px;
+		height: 18px;
+		line-height: 18px;
+	}
+	.bottom-links .links-left ul li a{
+		color: #fff;
+	}
+	.copyright {
+		font-size: 14px;
+		line-height: 20px;
+		color: #b2b2b2;
+		font-style: normal;
+		font-weight: 400;
+	}
+	.copyright a.description {
+		display: block;
+		text-decoration: underline;
+		margin-top: 5px;
+		margin-right: 0 !important;
+		line-height: 20px;
+		color: #b2b2b2;
+	}
+	.bottom-links .links-right a.cn_link1 {
+		padding: 0;
+		background: 0 0;
+		width: auto;
+		height: auto;
+		margin-right: 5px;
+	}
+	.bottom-links .links-right a.cn_link2 {
+		width: 263px;
+		color: #fff;
+		padding-left: 49px;
+		background: #333 url(../images/icon-cn01.png) 0 0 no-repeat;
+	}
+	.bottom-links .links-right a {
+		font-size: 14px;
+		line-height: 19px;
+		color: #333;
+		font-style: normal;
+		font-weight: 400;
+		text-transform: none;
+		display: inline-block;
+		vertical-align: middle;
+		width: 240px;
+		height: 58px;
+		border-radius: 3px 3px;
+		padding: 9px 0 0 62px;
+		word-break: normal;
+		background: #fff url(../images/icon-jungdo.jpg) 0 0 no-repeat;
+	}
+}
+
